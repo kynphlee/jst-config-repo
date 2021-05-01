@@ -1,3 +1,4 @@
+jobsearchtracker: Applicant config check OK!
 server:
   port: 8080
 spring:
