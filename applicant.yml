@@ -1,6 +1,8 @@
 jobsearchtracker:
   test:
     message: Applicant Config Verification of Applicant Cloud Config check OK!
+  variables:
+    foo: bar
 server:
   port: 8080
 spring:
