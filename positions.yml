@@ -1,3 +1,6 @@
+jobsearchtracker:
+  test:
+    message: Second Verification of Applicant Cloud Config check OK!
 server:
   port: 8080
 spring:
