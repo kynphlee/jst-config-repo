@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: positions
+  config:
+    import: "optional:configserver:http://config:8888"
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        currentSessionContextClass: org.springframework.orm.hibernate5.SpringSessionContext
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "${EUREKA_SERVER:http://jst-discovery:8761/eureka}"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
