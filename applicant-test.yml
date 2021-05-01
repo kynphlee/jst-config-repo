@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: applicant
-  config:
-    import: optional:configserver:http://localhost:8888
   jpa:
     show-sql: true
     generate-ddl: true
