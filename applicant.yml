@@ -1,6 +1,6 @@
 jobsearchtracker:
   test:
-    message: Applicant Config Verification of Applicant Cloud Config check OK!
+    message: Updated Applicant Config Verification of Applicant Cloud Config check OK!
   variables:
     foo: bar
 server:
