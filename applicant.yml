@@ -1,28 +1,5 @@
 jobsearchtracker:
   test:
-    message: Updated Applicant Config Verification of Applicant Cloud Config check OK!
+    message: Test to see initial refresh of Applicant Config Client check OK!
   variables:
     foo: bar
-server:
-  port: 8080
-spring:
-  profiles:
-    active: default
-  application:
-    name: applicant
-  jpa:
-    show-sql: true
-    generate-ddl: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        currentSessionContextClass: org.springframework.orm.hibernate5.SpringSessionContext
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery:8761/eureka
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
